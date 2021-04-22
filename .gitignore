@@ -1,0 +1,30 @@
+/data/*
+
+# Remove .local, .jupyter, .ipython and .config
+.jupyter/
+.local/
+.ipython/
+.config/
+
+# VSCode
+.vscode/
+.vscode
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Mac OS-specific storage files
+*.DS_Store
